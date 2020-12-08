@@ -1,0 +1,128 @@
+nav {
+  background-color: #563d7c;
+  color: #fff;
+  padding: 30px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav li a {
+  color: #ffff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 8px;
+}
+
+nav li a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+.flex-container {
+  display: flex;
+  /*border: 2px solid yellow;*/
+
+  padding: 2%;
+  text-align: center;
+  flex-grow: initial;
+}
+
+.flex-child {
+  display: flex;
+  border: 2px solid yellow;
+  padding: 2%;
+  text-align: center;
+  width: 80%;
+  margin: 1%;
+}
+
+.badge {
+  margin-right: 20px;
+  width: 4rem;
+  margin-bottom: 5px;
+}
+.badge-primary {
+  margin-right: 20px;
+}
+
+.btn {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-right: 20px;
+  columns: col-md-4;
+  width: 300px;
+  height: 30px;
+}
+.custom-file {
+  margin-right: 20px;
+  width: 60%;
+  height: 40px;
+}
+
+.custom-file-label {
+  margin-right: 100px;
+  width: 70%;
+  height: 40px;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.btnright {
+  cursor: pointer;
+  margin-right: 20%;
+}
+
+.duallistheader {
+  text-align: center;
+}
+
+.list-bullet {
+  list-style-type: none;
+}
+
+.App {
+  margin: 2rem auto;
+  max-width: 800px;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+  object-fit: contain;
+}
+
+.progessBar {
+  height: 2rem;
+  width: 10%;
+  background-color: rgb(68, 212, 231);
+  color: white;
+  padding: 4px;
+}
+
+.file-upload {
+  box-shadow: 2px 2px 2px 2px #ccc;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.tableCloumn {
+  width: 50%;
+}
